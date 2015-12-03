@@ -61,7 +61,7 @@
 
 - (void)configurateImageViewPostionWithTag:(NSInteger)tag
 {
-    CGFloat x,y,width,height;
+    CGFloat x = 0.0,y = 0.0,width = 0.0,height = 0.0;
     NSString *imageName = [NSString stringWithFormat:@"QRCodeScan.bundle/ScanQR%zd",tag];
     UIImage *image= [UIImage imageNamed:imageName];
     

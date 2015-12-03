@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
 
   s.source = { :git => "https://github.com/ludaye123/DSQRCodeScan.git", :tag => "1.0.1" }
 
-  s.source_files  = "QRCodeScaningDemo/QRCodeScaningDemo", "QRCodeScaningDemo/QRCodeScaningDemo/QRCodeScan/**/*.{h,m}"
+  s.source_files  = "QRCodeScaningDemo/QRCodeScaningDemo/QRCodeScan", "QRCodeScaningDemo/QRCodeScaningDemo/QRCodeScan/**/*.{h,m}"
 
   s.resource_bundles = {
     'DSQRCodeScan' => 'QRCodeScan.bundle'
