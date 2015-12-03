@@ -27,6 +27,7 @@
 - (void)qrcodeScanView:(DSQRCodeScanView *)view scanSuccessful:(NSString *)result
 {
     NSLog(@"扫描结果:%@",result);
+    [[[UIAlertView alloc] initWithTitle:nil message:[NSString stringWithFormat:@"结果:%@",result] delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil] show];
 }
 
 @end
